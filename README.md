@@ -1,44 +1,50 @@
-# NutriGuide – Full Stack Diet Recommendation App
+# 🥗 NutriGuide – Full Stack Diet Recommendation App
 
-NutriGuide is a full stack health and diet recommendation web application that allows users to sign up, log in, generate personalized diet reports, and save their report history securely.
+NutriGuide is a full stack health-tech web application that generates personalized diet plans based on user health profiles. It allows users to sign up, log in, generate diet reports, and securely store and manage their report history.
 
-## Live Demo
-- Frontend: https://nutriguide-frontend-omega.vercel.app
-- Backend API: https://nutriguide-backend-y2az.onrender.com
+---
 
-## Features
-- User authentication with Supabase Auth
-- Protected pages for logged-in users only
-- Personalized diet report generation
-- BMI, calorie target, protein goal, water intake, and daily steps calculation
-- Health-aware advice based on user profile and health issue
-- One-day sample meal plan generation
-- Save reports to Supabase database
-- View saved reports history
-- View full report details
-- Delete saved reports
-- User dashboard with latest report summary
+## 🌐 Live Demo
 
-## Tech Stack
-### Frontend
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Vercel
+- 🚀 Frontend: https://nutriguide-frontend-omega.vercel.app  
+- ⚙️ Backend API: https://nutriguide-backend-y2az.onrender.com  
+- 📘 API Docs: https://nutriguide-backend-y2az.onrender.com/docs  
 
-### Backend
-- FastAPI
-- Python
-- Render
+---
 
-### Database / Auth
-- Supabase
-- PostgreSQL
-- Supabase Auth
+## ✨ Features
 
-## Project Structure
-```text
-nutriguide-app/
-├── frontend/   # Next.js frontend
-├── backend/    # FastAPI backend
-└── README.md
+- 🔐 User Authentication (Signup/Login/Logout)
+- 🛡️ Protected Routes (only logged-in users)
+- 🧠 Personalized Diet Report Generation
+- 📊 BMI, Calorie, Protein, Water & Steps Calculation
+- 🍽️ One-Day Sample Meal Plan
+- ❤️ Health Condition-Based Recommendations
+- 💾 Save Reports to Database
+- 📂 View Saved Reports History
+- 🔍 Detailed Report View
+- ❌ Delete Reports
+- 📊 Dashboard with Latest Report Summary
+
+---
+
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+![Login](./screenshots/login.png)
+
+### 📊 Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### 🧾 Generate Diet Report
+![Form](./screenshots/form.png)
+
+### 📂 Saved Reports
+![Saved Reports](./screenshots/saved-reports.png)
+
+### 📄 Report Details
+![Report Details](./screenshots/report-details.png)
+
+---
+
+## 🏗️ Architecture
