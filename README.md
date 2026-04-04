@@ -28,23 +28,31 @@ NutriGuide is a full stack health-tech web application that generates personaliz
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🔐 Login Page
+### Home Page
+![Home](./screenshots/home.png)
+
+### Signup
+![Signup](./screenshots/signup.png)
+
+### Login
 ![Login](./screenshots/login.png)
 
-### 📊 Dashboard
+### Dashboard
 ![Dashboard](./screenshots/dashboard.png)
 
-### 🧾 Generate Diet Report
-![Form](./screenshots/form.png)
+### Profile Form
+![Profile](./screenshots/profile-form.png)
 
-### 📂 Saved Reports
-![Saved Reports](./screenshots/saved-reports.png)
+### Diet Report
+![Report](./screenshots/diet-report.png)
 
-### 📄 Report Details
-![Report Details](./screenshots/report-details.png)
+### Saved Reports
+![Saved](./screenshots/saved-reports.png)
 
+### Report Details
+![Details](./screenshots/report-details.png)
 ---
 
 ## 🏗️ Architecture
