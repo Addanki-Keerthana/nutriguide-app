@@ -44,10 +44,10 @@ NutriGuide is a full stack health-tech web application that generates personaliz
 ![Dashboard](./screenshots/dashboard.png)
 
 ### Profile Form
-![Profile](./screenshots/profile_form.png)
+![Profile](./screenshots/profile.png)
 
 ### Diet Report
-![Report](./screenshots/diet_report.png)
+![Report](./screenshots/report_details.png)
 
 ### Saved Reports
 ![Saved](./screenshots/saved_reports.png)
