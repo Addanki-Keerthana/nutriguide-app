@@ -1,69 +1,65 @@
-# 🥗 NutriGuide – Full Stack Diet Recommendation App
+# 🥗 NutriGuide – Full Stack Diet Recommendation App (V2)
 
-A full-stack health-tech web application that generates personalized diet plans based on user health profiles. Users can sign up, log in, generate reports, and manage their report history securely.
-
----
-
-## 🌐 Live Demo
-
-- 🚀 Frontend: https://nutriguide-frontend-omega.vercel.app  
-- ⚙️ Backend API: https://nutriguide-backend-y2az.onrender.com  
-- 📘 API Docs: https://nutriguide-backend-y2az.onrender.com/docs  
+NutriGuide is a comprehensive health-tech application designed to provide personalized nutritional guidance. Version 2 introduces a modernized "Emerald" UI, enhanced dashboard analytics, and a curated library of sample and saved recipes.
 
 ---
 
-## ✨ Features
+## 🌐 Live Deployment
 
-- 🔐 User Authentication (Signup/Login/Logout)
-- 🛡️ Protected Routes for authenticated users
-- 🧠 Personalized Diet Report Generation
-- 📊 BMI, Calorie, Protein, Water & Steps Calculation
-- 🍽️ One-Day Sample Meal Plan
-- ❤️ Health Condition-Based Recommendations
-- 💾 Save Reports to Database
-- 📂 View Saved Reports History
-- 🔍 Detailed Report View
-- ❌ Delete Reports
-- 📊 Dashboard with Latest Report Summary
+- **🚀 Frontend:** [https://nutriguide-app.vercel.app](https://nutriguide-app.vercel.app)
+- **⚙️ Backend API:** [https://nutriguide-backend-y2az.onrender.com](https://nutriguide-backend-y2az.onrender.com)
+- **📘 API Docs:** [https://nutriguide-backend-y2az.onrender.com/docs](https://nutriguide-backend-y2az.onrender.com/docs)
 
 ---
 
-## 🏗️ Architecture
+## ✨ New in V2
+- **📊 Advanced Dashboard:** Real-time sync with Supabase to track total health assessments and latest BMI/Calorie metrics.
+- **🍳 Recipe Engine:** Browse "Sample Recipes" and maintain a personal "Saved Recipes" kitchen.
+- **🎨 Modernized UI:** Clean, high-contrast Emerald theme with improved accessibility and mobile responsiveness.
+- **🛡️ Enhanced Auth:** Streamlined login/signup flow with improved session persistence.
 
-Frontend (Next.js) → Backend API (FastAPI) → Supabase (Database + Auth)
-
-- Next.js handles UI and user interaction  
-- FastAPI processes health data and generates reports  
-- Supabase manages authentication and persistent storage  
+## 🛠️ Core Features
+- 🔐 **Secure Authentication:** Supabase-powered Signup, Login, and protected user sessions.
+- 🧠 **Smart Reports:** AI-driven calculations for BMI, Calories, Protein, and Water intake.
+- 🍽️ **Meal Planning:** Daily meal suggestions based on unique health profiles (Underweight, Healthy, Overweight, Obese).
+- 💾 **Cloud Storage:** Save and manage history; View, Delete, or Analyze past reports instantly.
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗️ Technical Architecture
+
+
+
+- **Frontend:** Next.js (App Router), TypeScript, Tailwind CSS.
+- **Backend:** FastAPI (Python), Uvicorn, Render.
+- **Database/Auth:** Supabase (PostgreSQL), Supabase Auth.
+
+---
+
+
+## 🚀 Local Setup
 
 ### Frontend
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Vercel
+- cd frontend
+
+- npm install
+
+- npm run dev
 
 ### Backend
-- FastAPI
-- Python
-- Uvicorn
-- Render
+- cd backend
 
-### Database & Auth
-- Supabase
-- PostgreSQL
-- Supabase Auth
+- pip install -r requirements.txt
+
+- uvicorn main:app --reload
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-diet-app/
-├── frontend/        # Next.js frontend
-├── backend/         # FastAPI backend
-├── screenshots/     # App screenshots
-└── README.md
+nutriguide-app/
+├── frontend/        # Next.js Application (Root for Vercel)
+├── backend/         # FastAPI Application (Root for Render)
+├── screenshots/     # UI Previews and Documentation
+└── README.md        # Project Overview
